@@ -1,72 +1,85 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mintlify Starter Kit",
+  "name": "Hawberk Press Author Portal",
+  "theme": "willow",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#15171a",
+    "light": "#848484",
+    "dark": "#eaeaea"
+  },
+  "logo": {
+    "light": "https://media.brand.dev/9b35ed69-1532-4141-bcdd-4697c937d486.png",
+    "dark": "https://media.brand.dev/9b35ed69-1532-4141-bcdd-4697c937d486.png"
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "pages": [
+    "tabs": [
       {
-        "group": "Getting Started",
-        "pages": [
-          "index",
-          "quickstart"
+        "tab": "Welcome",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "introduction",
+              "our-values",
+              "your-journey"
+            ]
+          },
+          {
+            "group": "Publishing With Us",
+            "pages": [
+              "publishing/submission-to-publication",
+              "publishing/editorial-process",
+              "publishing/contracts-and-rights",
+              "publishing/royalties-and-payments"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Author Resources",
+        "groups": [
+          {
+            "group": "Marketing Assets",
+            "pages": [
+              "resources/brand-assets",
+              "resources/book-cover-files",
+              "resources/press-materials",
+              "resources/author-bio-and-headshot"
+            ]
+          },
+          {
+            "group": "Promotion Guidance",
+            "pages": [
+              "resources/promoting-your-work",
+              "resources/social-media-best-practices",
+              "resources/press-and-reviews",
+              "resources/reader-engagement"
+            ]
+          },
+          {
+            "group": "Online Presence",
+            "pages": [
+              "online-presence/author-website",
+              "online-presence/newsletter",
+              "online-presence/social-profiles",
+              "online-presence/goodreads-and-storefronts"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Support",
+        "groups": [
+          {
+            "group": "Help & Contact",
+            "pages": [
+              "support/faq",
+              "support/contact"
+            ]
+          }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
-    }
-  },
-  "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
     ]
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
   }
 }

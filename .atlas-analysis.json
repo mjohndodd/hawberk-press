@@ -1,0 +1,90 @@
+{
+  "projectType": "general",
+  "projectName": "Hawberk Press Author Portal",
+  "projectDescription": "A private resource hub for Hawberk Press authors, covering the publisher's values and process, marketing assets, and guidance on building an author presence online.",
+  "theme": "willow",
+  "primaryColor": "#15171a",
+  "lightColor": "#848484",
+  "darkColor": "#eaeaea",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Welcome",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "introduction",
+              "our-values",
+              "your-journey"
+            ]
+          },
+          {
+            "group": "Publishing With Us",
+            "pages": [
+              "publishing/submission-to-publication",
+              "publishing/editorial-process",
+              "publishing/contracts-and-rights",
+              "publishing/royalties-and-payments"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Author Resources",
+        "groups": [
+          {
+            "group": "Marketing Assets",
+            "pages": [
+              "resources/brand-assets",
+              "resources/book-cover-files",
+              "resources/press-materials",
+              "resources/author-bio-and-headshot"
+            ]
+          },
+          {
+            "group": "Promotion Guidance",
+            "pages": [
+              "resources/promoting-your-work",
+              "resources/social-media-best-practices",
+              "resources/press-and-reviews",
+              "resources/reader-engagement"
+            ]
+          },
+          {
+            "group": "Online Presence",
+            "pages": [
+              "online-presence/author-website",
+              "online-presence/newsletter",
+              "online-presence/social-profiles",
+              "online-presence/goodreads-and-storefronts"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Support",
+        "groups": [
+          {
+            "group": "Help & Contact",
+            "pages": [
+              "support/faq",
+              "support/contact"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Publisher values and mission overview (human-only, no AI)",
+    "End-to-end publishing process walkthrough",
+    "Contracts, rights, and royalty payment guidance",
+    "Downloadable marketing and brand assets",
+    "Social media and press promotion best practices",
+    "Step-by-step author website and newsletter setup",
+    "Goodreads, retail storefront, and online profile guidance",
+    "Direct contact and support channel for authors"
+  ],
+  "publicApiSurface": []
+}
